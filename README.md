@@ -16,4 +16,4 @@ _int apiID = cv::CAP_V4L2;_
 
 to
 
-_int apiID = cv::CAP_ANY; _
+_int apiID = cv::CAP_ANY;_
