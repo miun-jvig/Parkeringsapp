@@ -11,6 +11,6 @@ OpenCV was installed with the guide https://linuxize.com/post/how-to-install-ope
 **Parameters**
 If camera is not working, try changing
 
-int apiID = cv::CAP_V4L2;
+_int apiID = cv::CAP_V4L2;_
 to
-int apiID = cv::CAP_ANY; 
+_int apiID = cv::CAP_ANY; _
