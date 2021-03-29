@@ -8,6 +8,11 @@ Currently being built for a school-project.
 
 OpenCV was installed with the guide https://linuxize.com/post/how-to-install-opencv-on-raspberry-pi/. 
 
+**Hardware**
+
+- Raspberry Pi 2018
+- HQ camera V1.0 2018
+
 **Parameters**
 
 If camera is not working, try changing
