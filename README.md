@@ -9,6 +9,7 @@ Currently being built for a school-project.
 OpenCV was installed with the guide https://linuxize.com/post/how-to-install-opencv-on-raspberry-pi/. 
 
 **Parameters**
+
 If camera is not working, try changing
 
 _int apiID = cv::CAP_V4L2;_
