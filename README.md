@@ -4,6 +4,10 @@ A repository containing C++ code for a basic parking detector using OpenCV. The 
 
 Currently being built for a school-project.
 
+**Detection**
+
+Detection is being done by converting a frame to a dilated frame. The dilated frame will then detect how many black pixels there is in a certain range of interest. If the black pixels exceed a certain threshhold, then a car is parked in the spot.
+
 **Installation OpenCV on Raspberry Pi**:
 
 OpenCV was installed with the guide https://linuxize.com/post/how-to-install-opencv-on-raspberry-pi/. 
