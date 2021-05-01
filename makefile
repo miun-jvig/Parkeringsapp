@@ -3,8 +3,8 @@ LDFLAGS=-g
 LDLIBS=-lopencv_core -lopencv_calib3d -lopencv_highgui -lopencv_imgproc -lopencv_stitching -lopencv_video
 LIBRARIES += opencv_core opencv_highgui opencv_imgproc opencv_videoio
 
-exeMain: main.cpp detect.cpp detect.h
-	g++ $(LDFLAGS) main.cpp detect.cpp detect.h -o exeMain -I/usr/local/include/opencv4 -lopencv_calib3d -lopencv_features2d -lopencv_flann -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_objdetect $(LDLIBS)
+exeMain: main.cpp functions.cpp functions.h parking.h parking.cpp
+	g++ $(LDFLAGS) main.cpp functions.cpp functions.h parking.h parking.cpp -o exeMain -I/usr/local/include/opencv4 -lopencv_calib3d -lopencv_features2d -lopencv_flann -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_objdetect $(LDLIBS)
 
 run: exeMain
 	./exeMain
